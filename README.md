@@ -7,9 +7,11 @@ The string represents a list by encapsulated the content in square brackets. The
 either Pre, Suf or Uni. Each word is double quotes.
 
 The programm prints all combinations of the words, where:
+
 - words prefixed with Pre are only used as Prefix
 - words prefixed with Suf are only used as Suffix
 - words prefixed with Uni are used as prefix and suffix
+
 Words that consist of euqal words are not printed.
 
 example input: '[Pre "neo", Suf "master", Pre "turbo", Uni "leo", Suf "3000"]'
